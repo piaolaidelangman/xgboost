@@ -54,7 +54,7 @@ AllreduceBase::AllreduceBase() {
 bool AllreduceBase::Init(int argc, char* argv[]) {
   // setup from environment variables
   // handler to get variables from env
-  LOG(INFO) << "SUCCESS Enter AllreduceBase Init in allreduce_base.cc";
+  LOG(INFO) << "SUCCESS Enter AllreduceBase  Init in allreduce_base.cc";
   for (auto & env_var : env_vars) {
     const char *value = getenv(env_var.c_str());
     if (value != nullptr) {
